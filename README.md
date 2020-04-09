@@ -14,6 +14,8 @@ This python course was concipated for 'Formale Modelle and Algorithmen' (FMA) in
 
 ### Installation
 
+Installieren Sie, wenn möglich, Python 3.7!
+
 #### Windows
 
 [Download Python3](https://www.python.org/downloads/windows/) When installing check "Add Path Variable".
