@@ -250,19 +250,22 @@ def auditorium_set(a, b, n):
 
 def auditorium_dolfus(a, b, n):
     """Jens Dolfus"""
-    my_list = []
+    
+    multiples = []
 
-    tmp_1 = n // a
-    tmp_2 = n // b
-    for it in range(tmp_1 + 1):
-        my_list.append(it * a)
+    fits_a = n // a
+    fits_b = n // b
 
-    for it in range(tmp_2 + 1):
-        tmp_3 = it * b
-        if tmp_3 not in my_list:
-            my_list.append(tmp_3)
+    for it in range(fits_a + 1):
+        current_multiple_of_a = it * a
+        multiples.append(current_multiple_of_a)
 
-    return sum(my_list)
+    for it in range(fits_b + 1):
+        current_multiple_of_b = it * b
+        if current_multiple_of_b not in multiples:
+            multiples.append(current_multiple_of_b)
+
+    return sum(multiples)
 
 
 def auditorium_unknown(a, b, n):
