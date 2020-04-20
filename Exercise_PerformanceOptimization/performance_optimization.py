@@ -298,18 +298,30 @@ def auditorium_gauss_optimized(a, b, n):
     """
     sigma = 0
 
-    # get least common multiple...
-    # todo: explain how
+    # get least common multiple: this only works assuming a < b
     if a < b:
+        # You can calculate the lcm by deviding a*b by the greatest common devisor (gcm).
+        # We assume that this might be simply the difference between a and b: b-a.
+        # If b-a is not the gcm, lcm will be a float value.
         lcm = a * b / (b - a)
 
+        # if a divides b, lcm is b (there cannot be a lesser common multiple than b)
         if b % a == 0:
             lcm = b
+        # lcm must be > b and b > a, so: a < b < least common multiple <= a*b
+        # we must find out whether it is = a*b or something between b and a*b, which can only be
+        # the value stored in lcm from the calculation in the beginning.
+        # If a does not devide that previously calculated potential lcm, this value is not truly an lcm of a and b,
+        # so only a * b is left as an option.
         elif lcm % a != 0:
             lcm = a * b
+        # at this point lcm still contains the value assumed to be lcm in the beginning,
+        # and lcm is a natural number. So this is the true least common value.
     else:
+        # as above the other way around (b <= a)
         lcm = a * b / (a - b)
 
+        # this now also applies if a = b
         if a % b == 0:
             lcm = a
         elif lcm % b != 0:
