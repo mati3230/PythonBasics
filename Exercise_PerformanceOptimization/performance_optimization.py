@@ -432,10 +432,17 @@ if __name__ == '__main__':
         # line plot
         plt.figure()  # new figure
         print()
+
+        dataset_delta_t_highest = {}
         for key, dataset in dataset_delta_t.items():
-            # TODO: print sorted dict
-            print(key, "\n\t", '{:.8f}'.format(dataset[-1]))
-            plt.plot(dataset, label=key, linewidth=4)
+            dataset_delta_t_highest[key] = dataset[-1]
+
+        # sort dict by time needed for biggest/last n
+        dataset_delta_t_sorted = {key: value for key, value in sorted(dataset_delta_t_highest.items(), key=lambda item: item[1])}
+
+        for key, delta in dataset_delta_t_sorted.items():
+            print(key, "\n\t", '{:.8f}'.format(delta))
+            plt.plot(dataset_delta_t[key], label=key, linewidth=4)
 
         plt.legend(dataset_delta_t)
         plt.show()
