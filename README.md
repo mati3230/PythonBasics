@@ -235,8 +235,7 @@ else:
     print("I'm in the else-condition!")
 
 
-# todo: xor???
-while x <= 42 or x == 4711:
+while (x <= 42) != (x == 4711):
     print(x)
     x += 1
 
