@@ -277,27 +277,39 @@ def auditorium_dolfus(a, b, n):
 
 def auditorium_unknown(a, b, n):
     """Jens?"""
+
     if a < n and b < n:
-        sigma = set()
-        sigma.add(a)
+        multiples = set()
+
+        multiples.add(a)
+
         i = 2
+
         while i < n:
-            tmp = a * i
-            if tmp <= n:
-                sigma.add(tmp)
+            current_multiple_of_a = a * i
+
+            if current_multiple_of_a <= n:
+                multiples.add(current_multiple_of_a)
             else:
                 break
+
             i += 1
+
+        multiples.add(b)
+
         i = 2
-        sigma.add(b)
         while i < n:
-            tmp = b * i
-            if tmp <= n:
-                sigma.add(tmp)
+            current_multiple_of_b = b * i
+
+            if current_multiple_of_b <= n:
+                multiples.add(current_multiple_of_b)
+
             else:
                 break
+
             i += 1
-        return sum(sigma)
+
+        return sum(multiples)
     else:
         return 0
 
