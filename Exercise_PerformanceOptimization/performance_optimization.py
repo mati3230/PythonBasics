@@ -251,20 +251,27 @@ def auditorium_set(a, b, n):
 def auditorium_dolfus(a, b, n):
     """Jens Dolfus"""
     
+    # in the end, this list will contain every multiple of a and b that are smaller than n
     multiples = []
 
+    # this is how often a will fit into n
     fits_a = n // a
+    # this is how often b will fit into n
     fits_b = n // b
 
+    # add all multiples of a that are smaller than n to the list
     for it in range(fits_a + 1):
         current_multiple_of_a = it * a
         multiples.append(current_multiple_of_a)
 
+    # add all multiples of b that are smaller than n to the list 
+    # but: only if they have not been added on the previous step!
     for it in range(fits_b + 1):
         current_multiple_of_b = it * b
         if current_multiple_of_b not in multiples:
             multiples.append(current_multiple_of_b)
 
+    # sum up all found multiples
     return sum(multiples)
 
 
