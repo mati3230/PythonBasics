@@ -103,7 +103,7 @@ Quickstart, allgemeine Informationen zu Python:
 
 ### Python 2.7 and Python 3.x
 
-Python 2.7 wird immernoch oft verwendet, da viele ältere Projekte noch darauf basieren, aber im Januar 2020 wird der Support eingestellt. **Wir verwenden hier deshalb ausschließlich Python 3!**
+Python 2.7 wird immer noch oft verwendet, da viele ältere Projekte noch darauf basieren, aber im Januar 2020 wird der Support eingestellt. **Wir verwenden hier deshalb ausschließlich Python 3!**
 Python 3 ist **nicht vollständig abwärtskompatibel**. In vielen Foreneinträgen sind Beispiele und Lösungen zu finden, die unter Python 3 nicht funktionieren - Finger weg davon! Es sollte stets auf die Version geachtet werden, die gerade behandelt wird.
 Die auffäligsten Unterschiede im Code, die direkt ins Auge springen sind folgende:
 
