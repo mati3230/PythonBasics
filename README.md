@@ -132,6 +132,8 @@ My example array looks like [3 4 5]
 
 Jupyter Notebook verfolgt dagegen den Ansatz, kleinere Codeblöcke im Browser darzustellen und in eine Art Dokumentation einzubinden. Dies ist gut für Forschung und Lehre, aber ebenfalls nicht zur Entwicklung umfangreicherer Projekte geeignet.
 
+Eine Installationsanleitung für Jupyter findet sich [hier](https://jupyter.org/install). [Hier](https://jupyter.readthedocs.io/en/latest/running.html#running) können Sie eine kurze Einführung durcharbeiten. Um ein bereits angefertigtes Notebook zu öffnen, navigieren Sie im Terminal/Console zu dem entsprechenden Pfad und öffnen Sie den Notebook Server. 
+
 
 
 ## Python Syntax Crashkurs
