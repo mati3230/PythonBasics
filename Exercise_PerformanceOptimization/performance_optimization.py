@@ -250,45 +250,84 @@ def auditorium_set(a, b, n):
 
 def auditorium_dolfus(a, b, n):
     """Jens Dolfus"""
-    my_list = []
+    
+    # in the end, this list will contain every multiple of a and b that are smaller than n
+    multiples = []
 
-    tmp_1 = n // a
-    tmp_2 = n // b
-    for it in range(tmp_1 + 1):
-        my_list.append(it * a)
+    # this is how often a will fit into n
+    fits_a = n // a
+    # this is how often b will fit into n
+    fits_b = n // b
 
-    for it in range(tmp_2 + 1):
-        tmp_3 = it * b
-        if tmp_3 not in my_list:
-            my_list.append(tmp_3)
+    # add all multiples of a that are smaller than n to the list
+    for it in range(fits_a + 1):
+        current_multiple_of_a = it * a
+        multiples.append(current_multiple_of_a)
 
-    return sum(my_list)
+    # add all multiples of b that are smaller than n to the list 
+    # but: only if they have not been added on the previous step!
+    for it in range(fits_b + 1):
+        current_multiple_of_b = it * b
+        if current_multiple_of_b not in multiples:
+            multiples.append(current_multiple_of_b)
+
+    # sum up all found multiples
+    return sum(multiples)
 
 
 def auditorium_unknown(a, b, n):
-    """Jens?"""
+    """possibly another solution relying on the one above by Jens Dolfus"""
+
+    # make sure both a and b are smaller than n
     if a < n and b < n:
-        sigma = set()
-        sigma.add(a)
+        multiples = set()
+
+        # a is smaller than n and must be one of the multiples, so we can add it already to the set
+        multiples.add(a)
+
+        # we will now iterate through possible multiples of a that are smaller than n
+        # iteration starts at 2, since for 0 we get the multiple 0, which is unvalid,
+        # and for 1 we get the already added value of a
+        i = 2
+
+        # when i gets to the value of n, we will not produce valid multiples anymore so stop there
+        while i < n:
+            current_multiple_of_a = a * i
+
+            # if the current multiple of a is <= n, it is a valid multiple
+            if current_multiple_of_a <= n:
+                # add newly found multiple
+                multiples.add(current_multiple_of_a)
+            else:
+                # if the current multiple is not valid (> n), all following wille be > n as well and thus unvalid:
+                # so break the loop at this point
+                break
+
+            # increment iteration counter
+            i += 1
+
+        # like above with a, b is also smaller than n and must as well be one of the lcms, so we can add it to the set, too
+        multiples.add(b)
+
+        # just like before just for multiples of b
         i = 2
         while i < n:
-            tmp = a * i
-            if tmp <= n:
-                sigma.add(tmp)
+            current_multiple_of_b = b * i
+
+            if current_multiple_of_b <= n:
+                # since 'multiples' is a set, we do not need to check for the presence of newly added values
+                # due to the nature of sets, all added values will stay unique
+                multiples.add(current_multiple_of_b)
+
             else:
                 break
+
             i += 1
-        i = 2
-        sigma.add(b)
-        while i < n:
-            tmp = b * i
-            if tmp <= n:
-                sigma.add(tmp)
-            else:
-                break
-            i += 1
-        return sum(sigma)
+
+        # sum up all found multiples
+        return sum(multiples)
     else:
+        # if a or b is bigger than n, there are not lcms to add so the sum is 0
         return 0
 
 
@@ -432,10 +471,17 @@ if __name__ == '__main__':
         # line plot
         plt.figure()  # new figure
         print()
+
+        dataset_delta_t_highest = {}
         for key, dataset in dataset_delta_t.items():
-            # TODO: print sorted dict
-            print(key, "\n\t", '{:.8f}'.format(dataset[-1]))
-            plt.plot(dataset, label=key, linewidth=4)
+            dataset_delta_t_highest[key] = dataset[-1]
+
+        # sort dict by time needed for biggest/last n
+        dataset_delta_t_sorted = {key: value for key, value in sorted(dataset_delta_t_highest.items(), key=lambda item: item[1])}
+
+        for key, delta in dataset_delta_t_sorted.items():
+            print(key, "\n\t", '{:.8f}'.format(delta))
+            plt.plot(dataset_delta_t[key], label=key, linewidth=4)
 
         plt.legend(dataset_delta_t)
         plt.show()
