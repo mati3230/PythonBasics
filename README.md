@@ -21,12 +21,11 @@ Installieren Sie, wenn möglich, Python 3.7!
 [Download Python3](https://www.python.org/downloads/windows/) When installing check "Add Path Variable".
 [Download PyCharm (Community Edition)](https://www.jetbrains.com/pycharm/download/#section=windows)
 
-Gesamtes Setup und Hello World:  
-[Setting up Python](https://www.youtube.com/watch?v=IZj8hLrkABs)  
-- [10:30](https://youtu.be/IZj8hLrkABs?t=630): Relevant nur bis hier (ab dort wird die Einrichtung eines anderen Texteditors als PyCharm erklärt)
-- [4:09](https://youtu.be/IZj8hLrkABs?t=249): Python zu PATH hinzufügen
-- [5:50](https://youtu.be/IZj8hLrkABs?t=349): Hello World
 **Video-Tutorials:**  
+- Gesamtes Setup und Hello World:  [Setting up Python](https://www.youtube.com/watch?v=IZj8hLrkABs)  
+  - [10:30](https://youtu.be/IZj8hLrkABs?t=630): Relevant nur bis hier (ab dort wird die Einrichtung eines anderen Texteditors als PyCharm erklärt)
+  - [4:09](https://youtu.be/IZj8hLrkABs?t=249): Python zu PATH hinzufügen
+  - [5:50](https://youtu.be/IZj8hLrkABs?t=349): Hello World
 
 Setup inklusive PyCharm:  
 [Python Installation, PyCharm](https://www.youtube.com/watch?v=mbryl4MZJms&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=3)
@@ -55,8 +54,8 @@ sudo apt-get install python3.7-dev
 
 **Video-Tutorial:**  
 Gesamtes Setup und Hello World:  
-[How to Install Python 3.6 on Mac OS X](https://www.youtube.com/watch?v=uA8SA81nivg)  
-- [3:10](https://youtu.be/uA8SA81nivg?t=190): Hello World
+- [How to Install Python 3.6 on Mac OS X](https://www.youtube.com/watch?v=uA8SA81nivg)  
+  - [3:10](https://youtu.be/uA8SA81nivg?t=190): Hello World
 
 
 ### Most important shortcuts in PyCharm
@@ -95,9 +94,8 @@ Gesamtes Setup und Hello World:
     - Web (e.g. Django)
     - Frontend (e.g. Qt, Tkinter)
 
-Quickstart, allgemeine Informationen zu Python:  
-[Getting Started with Python](https://www.youtube.com/watch?v=DWgzHbglNIo&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=4)  
 **Video-Tutorial:**  
+- Quickstart, allgemeine Informationen zu Python:  [Getting Started with Python](https://www.youtube.com/watch?v=DWgzHbglNIo&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=4)  
 
 
 
@@ -179,7 +177,6 @@ Invoked with three single quotes.
 
 
 
-
 ### Variable types
 
 ```python
@@ -218,11 +215,10 @@ print(my_dict['pi'])  # get a dictionary's entry by it's key
 
 
 **Video-Tutorials:**  
-- [Datatypes](https://www.youtube.com/watch?v=TqPzwenhMj0&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=12)
+- [Datatypes](https://www.youtube.com/watch?v=gCCVsvgR2KU&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=12)
 - [Lists](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=6)    
-- [Tuples](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=7)    
-- [Dictionaries](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=8)    
-- [Sets](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=8)  
+- [Tuples](https://www.youtube.com/watch?v=Mf7eFtbVxFM&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=7)    
+- [Dictionaries](https://www.youtube.com/watch?v=2IsF7DEtVjg&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=8)    
 
 
 ### Operators
@@ -238,9 +234,9 @@ print(7%3)      # 1             modulo division
 i += 1  # increment (i++ is not possible in python)
 ```
 
-- [Variables and Basic Operation](https://www.youtube.com/watch?v=TqPzwenhMj0&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=5)
-- [Operators](https://www.youtube.com/watch?v=TqPzwenhMj0&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=13)
 **Video-Tutorials:**  
+- [Variables and Basic Operations](https://www.youtube.com/watch?v=TqPzwenhMj0&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=5)
+- [Operators](https://www.youtube.com/watch?v=v5MR5JnKcZI&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=13)
 
 
 ### Loops and Conditions
@@ -287,10 +283,11 @@ for index, element in enumerate(my_list):
     print(index, element)
 ```
 
-- [While Loops](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=23)    
-- [For Loops](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=24)    
-- [Break, Continue, Pass](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=26)  
 **Video-Tutorials:**  
+- [If, Else, Elif](https://www.youtube.com/watch?v=PqFKRqpHrjw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=22)    
+- [While Loops](https://www.youtube.com/watch?v=HZARImviDxg&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=23)    
+- [For Loops](https://www.youtube.com/watch?v=0ZvaDa8eT5s&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=24)    
+- [Break, Continue, Pass](https://www.youtube.com/watch?v=yCZBnjF4_tU&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=25)  
 
 
 ## Basic Slicing and Indexing
@@ -344,7 +341,7 @@ print(sum_some, mean_some)
 
 **Video-Tutorials:**  
 - [Functions](https://www.youtube.com/watch?v=BVfCWuca9nw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=36)  
-- [Function Arguments](https://www.youtube.com/watch?v=BVfCWuca9nw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=37)  
+- [Function Arguments](https://www.youtube.com/watch?v=ijXMGpoMkhQ&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=37)  
 
 
 ### Exercise: Prime numbers
@@ -354,8 +351,8 @@ Schreiben Sie ein skript, das...
 - ...alle Primzahlen von 2 bis 1000 in einer Liste speichert.
 - ...die 12. Primzahl ausgibt.
 
-[Prime Numbers im Python](https://www.youtube.com/watch?v=TqPzwenhMj0&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=29)
 **Video-Tutorial:**  
+- [Prime Numbers im Python](https://www.youtube.com/watch?v=SpTAxH_Geow&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=29)
 
 
 
@@ -388,10 +385,10 @@ print(my_instance.pythagoras())
 my_instance.set_values(7, 13)
 ```
 
-- [Classes and Objects](https://www.youtube.com/watch?v=BVfCWuca9nw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=53)  
-- [init](https://www.youtube.com/watch?v=BVfCWuca9nw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=54)  
-- [Constructor, Self, Comparing Objects](https://www.youtube.com/watch?v=BVfCWuca9nw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=55)  
 **Video-Tutorials:**  
+- [Classes and Objects](https://www.youtube.com/watch?v=8O5kX73OkIY&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=53)  
+- [init](https://www.youtube.com/watch?v=WIP3-woodlU&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=54)  
+- [Constructor, Self, Comparing Objects](https://www.youtube.com/watch?v=ic6wdPxcHc0&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=55)  
 
 
 ## import package
@@ -422,8 +419,8 @@ for element in tqdm.tqdm(my_numpy_array_reshaped, desc="Waiting"):
     time.sleep(element)
 ```
 
-[Import Packages](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=19)   
 **Video-Tutorial:**  
+- [Import Packages](https://www.youtube.com/watch?v=EkYrfV7M1ks&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=19)   
 
 | Die wichtigsten Standardbibliotheken |                                                              |
 | ------------------------------------ | ------------------------------------------------------------ |
@@ -500,8 +497,8 @@ plt.plot(dataset_1)
 plt.show()
 ```
 
-[Matplotlib Tutorial](https://www.youtube.com/watch?v=6rKe2IEIu8c)
 **Video-Tutorial:**  
+- [Matplotlib Tutorial](https://www.youtube.com/watch?v=6rKe2IEIu8c)
 
 
 ### Exercise: Plot Collector
