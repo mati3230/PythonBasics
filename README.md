@@ -21,12 +21,12 @@ Installieren Sie, wenn möglich, Python 3.7!
 [Download Python3](https://www.python.org/downloads/windows/) When installing check "Add Path Variable".
 [Download PyCharm (Community Edition)](https://www.jetbrains.com/pycharm/download/#section=windows)
 
-**Video Tutorials:**  
 Gesamtes Setup und Hello World:  
 [Setting up Python](https://www.youtube.com/watch?v=IZj8hLrkABs)  
 - [10:30](https://youtu.be/IZj8hLrkABs?t=630): Relevant nur bis hier (ab dort wird die Einrichtung eines anderen Texteditors als PyCharm erklärt)
 - [4:09](https://youtu.be/IZj8hLrkABs?t=249): Python zu PATH hinzufügen
 - [5:50](https://youtu.be/IZj8hLrkABs?t=349): Hello World
+**Video-Tutorials:**  
 
 Setup inklusive PyCharm:  
 [Python Installation, PyCharm](https://www.youtube.com/watch?v=mbryl4MZJms&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=3)
@@ -53,7 +53,7 @@ sudo apt-get install python3.7-dev
 [Download Python3](https://www.python.org/downloads/mac-osx/) or get it with *brew*.
 [Download PyCharm (Community Edition)](https://www.jetbrains.com/pycharm/download/#section=mac)
 
-**Video Tutorial:**  
+**Video-Tutorial:**  
 Gesamtes Setup und Hello World:  
 [How to Install Python 3.6 on Mac OS X](https://www.youtube.com/watch?v=uA8SA81nivg)  
 - [3:10](https://youtu.be/uA8SA81nivg?t=190): Hello World
@@ -95,9 +95,9 @@ Gesamtes Setup und Hello World:
     - Web (e.g. Django)
     - Frontend (e.g. Qt, Tkinter)
 
-**Video Tutorial:**  
 Quickstart, allgemeine Informationen zu Python:  
 [Getting Started with Python](https://www.youtube.com/watch?v=DWgzHbglNIo&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=4)  
+**Video-Tutorial:**  
 
 
 
@@ -217,7 +217,7 @@ print(my_dict['pi'])  # get a dictionary's entry by it's key
 ```
 
 
-**Video Tutorials:**  
+**Video-Tutorials:**  
 - [Datatypes](https://www.youtube.com/watch?v=TqPzwenhMj0&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=12)
 - [Lists](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=6)    
 - [Tuples](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=7)    
@@ -238,9 +238,9 @@ print(7%3)      # 1             modulo division
 i += 1  # increment (i++ is not possible in python)
 ```
 
-**Video Tutorials:**  
 - [Variables and Basic Operation](https://www.youtube.com/watch?v=TqPzwenhMj0&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=5)
 - [Operators](https://www.youtube.com/watch?v=TqPzwenhMj0&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=13)
+**Video-Tutorials:**  
 
 
 ### Loops and Conditions
@@ -287,10 +287,10 @@ for index, element in enumerate(my_list):
     print(index, element)
 ```
 
-**Video Tutorials:**  
 - [While Loops](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=23)    
 - [For Loops](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=24)    
 - [Break, Continue, Pass](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=26)  
+**Video-Tutorials:**  
 
 
 ## Basic Slicing and Indexing
@@ -342,7 +342,7 @@ print(sum_all, mean_all)
 print(sum_some, mean_some)
 ```
 
-**Video Tutorials:**  
+**Video-Tutorials:**  
 - [Functions](https://www.youtube.com/watch?v=BVfCWuca9nw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=36)  
 - [Function Arguments](https://www.youtube.com/watch?v=BVfCWuca9nw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=37)  
 
@@ -354,8 +354,8 @@ Schreiben Sie ein skript, das...
 - ...alle Primzahlen von 2 bis 1000 in einer Liste speichert.
 - ...die 12. Primzahl ausgibt.
 
-**Video Tutorial:**  
 [Prime Numbers im Python](https://www.youtube.com/watch?v=TqPzwenhMj0&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=29)
+**Video-Tutorial:**  
 
 
 
@@ -388,10 +388,10 @@ print(my_instance.pythagoras())
 my_instance.set_values(7, 13)
 ```
 
-**Video Tutorials:**  
 - [Classes and Objects](https://www.youtube.com/watch?v=BVfCWuca9nw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=53)  
 - [init](https://www.youtube.com/watch?v=BVfCWuca9nw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=54)  
 - [Constructor, Self, Comparing Objects](https://www.youtube.com/watch?v=BVfCWuca9nw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=55)  
+**Video-Tutorials:**  
 
 
 ## import package
@@ -422,8 +422,8 @@ for element in tqdm.tqdm(my_numpy_array_reshaped, desc="Waiting"):
     time.sleep(element)
 ```
 
-**Video Tutorial:**  
 [Import Packages](https://www.youtube.com/watch?v=Eaz5e6M8tL4&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=19)   
+**Video-Tutorial:**  
 
 | Die wichtigsten Standardbibliotheken |                                                              |
 | ------------------------------------ | ------------------------------------------------------------ |
@@ -500,8 +500,8 @@ plt.plot(dataset_1)
 plt.show()
 ```
 
-**Video Tutorial:**  
 [Matplotlib Tutorial](https://www.youtube.com/watch?v=6rKe2IEIu8c)
+**Video-Tutorial:**  
 
 
 ### Exercise: Plot Collector
@@ -650,7 +650,7 @@ size = np.size(arr_2d)  # Gives the number of elements: 6
 dotproduct = np.dot(arr_2d, [1, 2, 3])  # Dot product of two arrays: array([8, 26])
 ```
 
-**Video Tutorials:**  
+**Video-Tutorials:**  
 - [Why Numpy? Installing Numpy in Pycharm](https://www.youtube.com/watch?v=8LlXhtfNZEQ&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=32)
 - [Numpy Setup and Tutorial](https://www.youtube.com/watch?v=xECXZ3tyONo)
 - [Working with Matrix in Python](https://www.youtube.com/watch?v=8LlXhtfNZEQ&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=35)   
