@@ -220,6 +220,13 @@ print(my_dict['pi'])  # get a dictionary's entry by it's key
 - [Tuples](https://www.youtube.com/watch?v=Mf7eFtbVxFM&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=7)    
 - [Dictionaries](https://www.youtube.com/watch?v=2IsF7DEtVjg&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=8)    
 
+**Quiz:**  
+- [Variables](https://realpython.com/quizzes/python-variables/viewer/)
+- [Strings and Characters](https://realpython.com/quizzes/python-strings/viewer/)
+- [Dictionaries](https://realpython.com/quizzes/python-dicts/viewer/)
+- [Lists and Tuples](https://realpython.com/quizzes/python-lists-tuples/viewer/)
+- [Sets](https://realpython.com/quizzes/python-sets/)
+
 
 ### Operators
 
@@ -237,6 +244,10 @@ i += 1  # increment (i++ is not possible in python)
 **Video-Tutorials:**  
 - [Variables and Basic Operations](https://www.youtube.com/watch?v=TqPzwenhMj0&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=5)
 - [Operators](https://www.youtube.com/watch?v=v5MR5JnKcZI&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=13)
+
+**Quiz:**  
+- [Operators and Expressions](https://realpython.com/quizzes/python-operators-expressions/viewer/)
+
 
 
 ### Loops and Conditions
@@ -288,6 +299,14 @@ for index, element in enumerate(my_list):
 - [While Loops](https://www.youtube.com/watch?v=HZARImviDxg&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=23)    
 - [For Loops](https://www.youtube.com/watch?v=0ZvaDa8eT5s&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=24)    
 - [Break, Continue, Pass](https://www.youtube.com/watch?v=yCZBnjF4_tU&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=25)  
+
+**Quiz:**  
+- [While Loops](https://realpython.com/quizzes/python-while-loop/)
+
+**Aufgaben:**  
+- [Statements and Loops](https://www.w3resource.com/python-exercises/python-conditional-statements-and-loop-exercises.php)
+  - relevante Aufgaben: 1), 2), 3), 5), 30)
+
 
 
 ## Basic Slicing and Indexing
@@ -342,6 +361,13 @@ print(sum_some, mean_some)
 **Video-Tutorials:**  
 - [Functions](https://www.youtube.com/watch?v=BVfCWuca9nw&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=36)  
 - [Function Arguments](https://www.youtube.com/watch?v=ijXMGpoMkhQ&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=37)  
+
+**Aufgaben:**  
+- [Functions](https://www.w3resource.com/python-exercises/python-functions-exercises.php)
+  - relevante Aufgaben: 2), 6), 8)
+- [Lambda](https://www.w3resource.com/python-exercises/lambda/index.php)
+  - relevante Aufgaben: 1), 6), 11)
+
 
 
 ### Exercise: Prime numbers
@@ -500,6 +526,9 @@ plt.show()
 **Video-Tutorial:**  
 - [Matplotlib Tutorial](https://www.youtube.com/watch?v=6rKe2IEIu8c)
 
+**Aufgaben:**  
+- [Matplotlib](https://www.w3resource.com/graphics/matplotlib/basic/index.php)
+  - relevante Aufgaben: alle
 
 ### Exercise: Plot Collector
 
@@ -651,6 +680,11 @@ dotproduct = np.dot(arr_2d, [1, 2, 3])  # Dot product of two arrays: array([8, 2
 - [Why Numpy? Installing Numpy in Pycharm](https://www.youtube.com/watch?v=8LlXhtfNZEQ&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=32)
 - [Numpy Setup and Tutorial](https://www.youtube.com/watch?v=xECXZ3tyONo)
 - [Working with Matrix in Python](https://www.youtube.com/watch?v=8LlXhtfNZEQ&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=35)   
+
+**Aufgaben:**  
+- [Numpy Operations, Arrays and Matrices](https://www.w3resource.com/python-exercises/numpy/basic/index.php)
+  - relevante Aufgaben: 1), 2), 3), 9), 12), 16), 20), 24), 26), 32), 40), 41)
+
 
 
 # Image Processing
